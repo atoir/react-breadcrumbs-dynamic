@@ -1,5 +1,4 @@
-import React, { Children } from 'react'
-import PropTypes from 'prop-types'
+import React from 'react'
 
 import {
   ThroughProvider,
@@ -56,9 +55,6 @@ const defaultRender = (props) => {
     finalItem: FinalItem,
     finalProps,
     separator,
-    duplicate,
-    remove,
-    rename,
     itemsValue,
     count,
     prepareItemProps,

@@ -1,11 +1,11 @@
 {
-  "name": "react-breadcrumbs-dynamic",
+  "name": "@atoir/react-breadcrumbs-dynamic",
   "version": "1.2.1",
-  "description": "React dynamic breadcrumbs extremely flexible and easy to use",
+  "description": "fork React dynamic breadcrumbs extremely flexible and easy to use",
   "main": "dist/src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oklas/react-breadcrumbs-dynamic"
+    "url": "https://github.com/atoir/react-breadcrumbs-dynamic.git"
   },
   "keywords": [
     "breadcrumbs",
@@ -27,12 +27,13 @@
   },
   "devDependencies": {
     "@babel/polyfill": "^7.0.0",
-    "babel-cli": "^6.24.1",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^22.4.3",
     "babel-loader": "^7.1.1",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "chai": "^4.1.2",
@@ -50,6 +51,7 @@
     "webpack-dev-server": "^2.9.7"
   },
   "dependencies": {
+    "babel": "^6.23.0",
     "react-through": "^1.1.4"
   },
   "jest": {
